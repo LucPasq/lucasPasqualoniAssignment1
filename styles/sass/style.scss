@@ -14,7 +14,8 @@ $darkerGreyColor: #1F2022;
 $waterBlueColor: #1D81CC;
 
 .wrapper{
-    max-width: 100%;
+    max-width: 2400px; //I have a widescreen monitor, i personally set this high so it wont look strange on my screen
+    width:100%;
     margin: 0 auto;
 }
 
@@ -25,6 +26,10 @@ $waterBlueColor: #1D81CC;
     background-size: cover;
     background-position: center;
     display: inline-block;
+}
+
+body{
+    background-color:$lightPinkColor;
 }
 
 nav {
@@ -72,6 +77,7 @@ h2{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 80px;
 }
 
 .newsHead{
@@ -90,4 +96,18 @@ h3{
     font-family: 'Emblema One', sans-serif;
     color: $waterBlueColor;
     font-size: 42px;
+}
+
+.midBox {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p {
+    font-family:'Barlow', sans-serif;
+    font-size: 20px;
 }

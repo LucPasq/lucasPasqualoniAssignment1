@@ -235,7 +235,8 @@ html {
   }
 }
 .wrapper {
-  max-width: 100%;
+  max-width: 2400px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -246,6 +247,10 @@ html {
   background-size: cover;
   background-position: center;
   display: inline-block;
+}
+
+body {
+  background-color: #FCDDE2;
 }
 
 nav {
@@ -299,6 +304,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  padding-bottom: 80px;
 }
 
 .newsHead {
@@ -331,4 +337,25 @@ h3 {
   font-family: "Emblema One", sans-serif;
   color: #1D81CC;
   font-size: 42px;
+}
+
+.midBox {
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
 }
