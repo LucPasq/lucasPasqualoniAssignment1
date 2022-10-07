@@ -70,6 +70,24 @@ h2{
 
 .news {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.newsHead{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.gallery{
+    display:flex;
     flex-direction: row;
-    width: 90%;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-family: 'Emblema One', sans-serif;
+    color: $waterBlueColor;
+    font-size: 42px;
 }
