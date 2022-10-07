@@ -1,14 +1,75 @@
 @use "setup";
 
+@media (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+}
+
 $marineColor: #042259;
 $paleRoseColor: #F5C8CF;
 $paleGreyColor: #F0F5FF;
 $lightPinkColor: #FCDDE2;
 $darkerGreyColor: #1F2022;
+$waterBlueColor: #1D81CC;
 
 .wrapper{
-    max-width: 1200px;
-    width: 90%;
+    max-width: 100%;
     margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 900px;
+    background-image:url(../assets/header-alt.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+nav {
+    height: 10vh;
+    letter-spacing: 1.5px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+nav ul {
+    list-style: none;
+    font-size: 25px;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: $marineColor;
+    font-family: 'Catamaran', sans-serif ;
+}
+
+.title{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family:'Emblema One', sans-serif ;
+    font-size:104.6px;
+    color: $waterBlueColor;
+}
+
+h2{
+    font-family:'Barlow', sans-serif;
+    font-size:37.2px;
+    color: $marineColor;
+}
+
+.news {
     display: flex;
+    flex-direction: row;
+    width: 90%;
 }
