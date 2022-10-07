@@ -110,4 +110,57 @@ h3{
 p {
     font-family:'Barlow', sans-serif;
     font-size: 20px;
+    line-height:29px;
+    letter-spacing: 0.2px;
+}
+
+.textMid{
+    width: 1000px;
+}
+
+.midButton{
+    font-family: 'Emblema One', sans-serif;
+    background-color: $marineColor;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: $marineColor;
+    display: block;
+    margin-top: 20px;
+    color: $paleGreyColor;
+}
+
+.botBox {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $paleGreyColor;
+}
+
+.textBot{
+    display:inline-block;
+    flex-direction:column;
+    vertical-align:left;
+    text-align: left;
+}
+
+.botButton{
+    font-family: 'Emblema One', sans-serif;
+    background-color: $paleRoseColor;
+    height:40px;
+    width:150px;
+    font-size: 20px;
+    border: $paleRoseColor;
+    display: block;
+    margin-top: 20px;
+    color: $marineColor;
+}
+
+.textAlt{
+    display:inline-block;
+    flex-direction: column;
+    vertical-align: right;
+    text-align: right;
 }

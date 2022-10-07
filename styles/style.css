@@ -358,4 +358,70 @@ h3 {
 p {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+
+.textMid {
+  width: 1000px;
+}
+
+.midButton {
+  font-family: "Emblema One", sans-serif;
+  background-color: #042259;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border: #042259;
+  display: block;
+  margin-top: 20px;
+  color: #F0F5FF;
+}
+
+.botBox {
+  margin-left: 180px;
+  margin-right: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #F0F5FF;
+}
+
+.textBot {
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: left;
+  text-align: left;
+}
+
+.botButton {
+  font-family: "Emblema One", sans-serif;
+  background-color: #F5C8CF;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border: #F5C8CF;
+  display: block;
+  margin-top: 20px;
+  color: #042259;
+}
+
+.textAlt {
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: right;
+  text-align: right;
 }
