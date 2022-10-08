@@ -107,7 +107,7 @@ h3{
     justify-content: space-evenly;
 }
 
-p {
+.midBox div p, .botBox div p {
     font-family:'Barlow', sans-serif;
     font-size: 20px;
     line-height:29px;
@@ -177,5 +177,38 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: $paleGreyColor;
     
+}
+
+.footText{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footInfo{
+    display:flex;
+    flex-direction: column;
+    font-family:'Barlow', sans-serif;
+    font-size: 20px;
+    line-height:29px;
+    letter-spacing: 0.2px;
+
+}
+
+.footList{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    list-style: none;
+    margin-left: 300px;
+    font-family:'Emblema One', sans-serif ;
+
+}
+
+h6{
+    font-size: 25px;
+    line-height: 1px;
 }

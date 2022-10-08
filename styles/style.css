@@ -355,7 +355,7 @@ h3 {
           justify-content: space-evenly;
 }
 
-p {
+.midBox div p, .botBox div p {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
   line-height: 29px;
@@ -452,4 +452,56 @@ p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #F0F5FF;
+}
+
+.footText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+
+.footList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+  margin-left: 300px;
+  font-family: "Emblema One", sans-serif;
+}
+
+h6 {
+  font-size: 25px;
+  line-height: 1px;
 }
