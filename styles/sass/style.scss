@@ -200,15 +200,29 @@ h3{
 .footList{
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items:flex-start;
-    list-style: none;
     margin-left: 300px;
     font-family:'Emblema One', sans-serif ;
 
 }
 
-h6{
+p{
+    font-family:'Barlow', sans-serif;
+    font-size: 20px;
+    line-height:29px;
+    letter-spacing: 0.2px;
+}
+
+h6 a{
     font-size: 25px;
     line-height: 1px;
+    list-style: none;
+}
+
+.botSubmit{
+    color: $marineColor;
+    background-color:$lightPinkColor;
+    font-family: 'Emblema One', sans-serif ;
+
 }
